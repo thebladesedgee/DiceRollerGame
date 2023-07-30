@@ -1,0 +1,83 @@
+body
+{
+    background-color: rgb(14, 3, 51);
+    overflow: hidden;
+}
+#dice
+{
+    background-color: rgb(251, 51, 127);
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    font-family: fantasy;
+}
+#one
+{
+    width: 160px;
+    height: 160px;
+}
+
+#two
+{
+    width: 160px;
+    height: 160px;
+}
+
+#zero
+{
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(0,83,255);
+    color: white;
+    font-family: fantasy;
+   
+}
+
+  
+  #myTable {
+    transform: scale(2.0);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #image 
+    {
+    top: 0px;
+    position: fixed;
+    }
+  
+
+  #myTable 
+  {
+  
+    margin-top:240px; 
+    position: fixed;
+    background-color: rgb(0,141,255);
+    border-color: black
+    
+  }
+
+  #score1
+  {
+    font-family: fantasy;
+    color: rgb(14, 3, 51);
+  }
+
+  #score2
+  {
+    font-family: fantasy;
+    color: rgb(14, 3, 51);
+  }
+
+  #result
+  {
+    font-family: fantasy;
+    color: rgb(14, 3, 51);
+    
+  }

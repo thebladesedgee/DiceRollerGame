@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73,31,101)
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scale(1.8);
+}
