@@ -1,7 +1,13 @@
-body
-{
-    background-color: rgb(14, 3, 51);
-    overflow: hidden;
+body {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(14, 3, 51);
+
 }
 #dice
 {
@@ -11,17 +17,7 @@ body
     border-radius: 15px;
     font-family: fantasy;
 }
-#one
-{
-    width: 160px;
-    height: 160px;
-}
 
-#two
-{
-    width: 160px;
-    height: 160px;
-}
 
 #zero
 {
@@ -33,31 +29,23 @@ body
    
 }
 
-  
-  #myTable {
-    transform: scale(2.0);
-  }
+#one{
+  width: 160px;
+  height: 160px;
+}
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+#two{
+  width: 160px;
+  height: 160px;
+}
   
-  #image 
-    {
-    top: 0px;
-    position: fixed;
-    }
-  
+
+
 
   #myTable 
   {
   
-    margin-top:240px; 
-    position: fixed;
+
     background-color: rgb(0,141,255);
     border-color: black
     
@@ -81,3 +69,39 @@ body
     color: rgb(14, 3, 51);
     
   }
+
+.container {
+  max-width: 500px;
+  width: 90%;
+  padding: 20px;
+}
+
+img#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* Tablet ve Mobil Boyutları İçin Stiller */
+@media screen and (max-width: 768px) {
+  table {
+      font-size: 14px;
+  }
+  
+  #firstdice,
+  #seconddice {
+      height: 120px;
+      width: 120px;
+  }
+  
+  td[colspan="2"] {
+      text-align: center;
+  }
+}

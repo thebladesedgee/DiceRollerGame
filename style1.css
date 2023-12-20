@@ -1,17 +1,25 @@
-body, html {
-    height: 100%;
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     background-color: rgb(73,31,101)
 }
 
-
-
-img {
-    width: 100%;
-    height: auto;
+a img {
     display: block;
-    transform: scale(1.8);
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Eklenen düzenleme: Görüntüyü yatayda ortalar */
+}
+
+/* Tablet ve Mobil Boyutları İçin Stiller */
+@media screen and (max-width: 768px) {
+    a img {
+        max-width: 80%;
+    }
 }
