@@ -15,7 +15,7 @@ body {
     color: white;
     width: 100%;
     border-radius: 15px;
-    font-family: fantasy;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 
@@ -25,7 +25,7 @@ body {
     border-radius: 15px;
     background-color: rgb(0,83,255);
     color: white;
-    font-family: fantasy;
+    font-family: 'Pixelify Sans', sans-serif;
    
 }
 
@@ -53,29 +53,35 @@ body {
 
   #score1
   {
-    font-family: fantasy;
+    font-family: 'Pixelify Sans', sans-serif;
     color: rgb(14, 3, 51);
+
   }
 
   #score2
   {
-    font-family: fantasy;
+    font-family: 'Pixelify Sans', sans-serif;
     color: rgb(14, 3, 51);
+   
   }
 
   #result
   {
-    font-family: fantasy;
+    font-family: 'Pixelify Sans', sans-serif;
     color: rgb(14, 3, 51);
-    
+
   }
 
-.container {
-  max-width: 500px;
-  width: 90%;
-  padding: 20px;
-}
-
+  .container {
+    max-width: 500px;
+    width: 90%;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
 img#image {
   display: block;
   margin: 0 auto;
@@ -88,6 +94,17 @@ table {
   text-align: center;
   margin-top: 0px;
 }
+
+footer {
+  text-align: center;
+  color: #f2f2f2;
+  margin-top: 150px;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+
 
 /* Tablet ve Mobil Boyutları İçin Stiller */
 @media screen and (max-width: 768px) {
